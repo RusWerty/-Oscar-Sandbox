@@ -7,4 +7,4 @@ def  test_guest_can_add_product_to_basket (browser):
     page.add_product_to_basket()
     page.solve_quiz_and_get_code()
     page.should_be_correct_product_added()
-    page.should_be_correct_price()
+    page.should_be_correct_price_in_basket()
